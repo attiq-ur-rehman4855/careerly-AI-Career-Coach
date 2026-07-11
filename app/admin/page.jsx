@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, CreditCard, Zap, TrendingUp } from "lucide-react";
 import Link from "next/link";
 import DashboardCharts from "./_components/DashboardCharts";
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Admin Overview - Careerly",
