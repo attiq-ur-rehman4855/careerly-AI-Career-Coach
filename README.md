@@ -32,7 +32,7 @@
 
 Built with production-grade tools, Careerly demonstrates modern web development best practices.
 
-[GitHub Repo](https://github.com/mubashir-hsn/careerly)
+[GitHub Repo](https://github.com/attiq-ur-rehman4855/careerly-AI-Career-Coach)
 
 ## ✨ Features
 
@@ -113,7 +113,7 @@ NEXT_PUBLIC_GEMINI_API_KEY="your-public-key"
 ### Installation
 
 ```bash
-git clone https://github.com/mubashir-hsn/careerly.git
+git clone https://github.com/attiq-ur-rehman4855/careerly-AI-Career-Coach
 cd careerly
 npm install
 
