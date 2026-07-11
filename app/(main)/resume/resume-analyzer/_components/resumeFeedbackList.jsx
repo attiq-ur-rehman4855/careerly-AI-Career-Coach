@@ -64,7 +64,7 @@ const ResumeFeedbackList = ({ feedbacks }) => {
                   <div className="flex items-center gap-5">
                     <ScoreGauge score={feedback.overallScore} />
                     <div className='space-y-0.5'>
-                      <h3 className='text-lg font-black text-slate-900 tracking-tight leading-tight group-hover:text-primary-500 transition-colors'>
+                      <h3 className='text-lg font-black text-slate-900 tracking-tight leading-tight group-hover:text-primary transition-colors'>
                         {feedback?.jobTitle}
                       </h3>
                       <p className="text-sm font-bold text-slate-500">
@@ -82,7 +82,7 @@ const ResumeFeedbackList = ({ feedbacks }) => {
                       variant="outline"
                       size="icon"
                       onClick={() => router.push(`/resume/resume-analyzer/${feedback.id}`)}
-                      className="h-8 w-8 rounded-lg border-slate-200 text-slate-500 hover:bg-primary/5 hover:text-primary-500 hover:border-primary/20 transition-all"
+                      className="h-8 w-8 rounded-lg border-slate-200 text-slate-500 hover:bg-primary/5 hover:text-primary hover:border-primary/20 transition-all"
                     >
                       <Eye className="h-4 w-4" />
                     </Button>

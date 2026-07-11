@@ -288,7 +288,7 @@ const EntryForm = ({ type, entries, onChange }) => {
                                 type="checkbox"
                                 id="current"
                                 {...register("current")}
-                                className="w-5 h-5 rounded-md border-slate-300 text-primary-500 focus:ring-primary/20 transition-all cursor-pointer"
+                                className="w-5 h-5 rounded-md border-slate-300 text-primary focus:ring-primary/20 transition-all cursor-pointer"
                                 onChange={(e) => {
                                     setValue("current", e.target.checked);
                                     if (e.target.checked) setValue("endDate", "");
@@ -308,7 +308,7 @@ const EntryForm = ({ type, entries, onChange }) => {
                                     size="sm"
                                     onClick={handleImprovedDescription}
                                     disabled={isImproving || !watch("description")}
-                                    className="h-8 bg-primary/5 text-primary-500 hover:bg-primary/10 rounded-full px-3 font-bold transition-all text-xs"
+                                    className="h-8 bg-primary/5 text-primary hover:bg-primary/10 rounded-full px-3 font-bold transition-all text-xs"
                                 >
                                     {isImproving ? (
                                         <Loader2 className="h-3 w-3 mr-1.5 animate-spin" />

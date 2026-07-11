@@ -64,7 +64,7 @@ const QuizList = ({ assessments }) => {
                         >
                             <CardHeader className="pb-3">
                                 <div className="flex justify-between items-start mb-2">
-                                    <Badge variant="secondary" className={'bg-primary/5 text-primary-500 text-[10px] font-bold uppercase tracking-wider px-2'}>
+                                    <Badge variant="secondary" className={'bg-primary/5 text-primary text-[10px] font-bold uppercase tracking-wider px-2'}>
                                         {assessment.category}
                                     </Badge>
                                     <AlertDialog>
@@ -99,7 +99,7 @@ const QuizList = ({ assessments }) => {
                                         </AlertDialogContent>
                                     </AlertDialog>
                                 </div>
-                                <CardTitle className="text-xl font-bold text-slate-900 group-hover:text-primary-500 transition-colors">
+                                <CardTitle className="text-xl font-bold text-slate-900 group-hover:text-primary transition-colors">
                                     {assessment?.title}
                                 </CardTitle>
                                 <CardDescription className="flex justify-between items-center w-full mt-2">

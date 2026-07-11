@@ -69,7 +69,7 @@ export default async function SupportPage() {
     <div className="container mx-auto px-4 py-12 max-w-5xl space-y-12">
       <div className="text-center md:text-left space-y-4">
         <h1 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter">
-          Support & <span className="text-primary-500 italic">Feedback</span>
+          Support & <span className="text-primary italic">Feedback</span>
         </h1>
         <p className="text-lg text-slate-500 max-w-2xl font-medium leading-relaxed opacity-80">
           Need help or want to suggest an improvement? We&apos;re here to listen

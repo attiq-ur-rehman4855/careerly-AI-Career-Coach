@@ -16,7 +16,7 @@ const IndustryInsightsPage = async () => {
     <div className="container mx-auto px-4 py-12 max-w-7xl min-h-screen">
       <div className="mb-2">
         <h1 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter">
-          Industry <span className="text-primary-500 italic">Trends</span>
+          Industry <span className="text-primary italic">Trends</span>
         </h1>
         <p className="text-slate-500 mt-3 text-lg font-medium opacity-80">
           Real-time market analytics and skill guide.

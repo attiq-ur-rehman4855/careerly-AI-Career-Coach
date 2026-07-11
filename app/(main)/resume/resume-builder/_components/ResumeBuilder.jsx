@@ -340,7 +340,7 @@ const ResumeBuilder = ({ initialContent }) => {
                                     type="button"
                                     variant="ghost"
                                     size="sm"
-                                    className={'bg-primary/5 text-primary-500 hover:bg-primary/10 rounded-full px-4 font-bold transition-all'}
+                                    className={'bg-primary/5 text-primary hover:bg-primary/10 rounded-full px-4 font-bold transition-all'}
                                     onClick={handleImprovedSummary}
                                     disabled={isImproving || !watch("summary")}
                                 >

@@ -130,7 +130,7 @@ export default function Chat() {
               {isSidebarOpen ? <X size={20} className="text-slate-600" /> : <Menu size={20} className="text-slate-600" />}
             </button>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary-500 shadow-inner">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shadow-inner">
                 <BrainCircuit size={24} />
               </div>
               <div>
@@ -156,10 +156,10 @@ export default function Chat() {
           <div className="flex-1 w-full flex flex-col items-center justify-center px-4 relative overflow-hidden pb-28">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-primary/5 rounded-full blur-[100px] -z-10" />
             <div className="w-24 h-24 rounded-xl bg-white shadow-xl flex items-center justify-center mb-5 border border-slate-100 rotate-3">
-              <BrainCircuit className="w-14 h-14 text-primary-500 animate-pulse" />
+              <BrainCircuit className="w-14 h-14 text-primary animate-pulse" />
             </div>
             <h2 className="text-3xl md:text-5xl font-black text-slate-800 tracking-tighter mb-4">
-              Careerly <span className="text-primary-500 italic">AI</span>
+              Careerly <span className="text-primary italic">AI</span>
             </h2>
             <p className="text-slate-500 font-medium max-w-lg mx-auto leading-relaxed mb-5 text-center">
               Choose a topic to begin your career conversation.
@@ -173,7 +173,7 @@ export default function Chat() {
                 <button
                   key={query}
                   onClick={() => setInput(query)}
-                  className="px-5 py-3 rounded-xl bg-white border border-slate-200 text-slate-600 text-sm font-bold hover:border-primary/50 hover:bg-slate-50 hover:text-primary-500 transition-all shadow-sm text-center flex items-center justify-center"
+                  className="px-5 py-3 rounded-xl bg-white border border-slate-200 text-slate-600 text-sm font-bold hover:border-primary/50 hover:bg-slate-50 hover:text-primary transition-all shadow-sm text-center flex items-center justify-center"
                 >
                   {query}
                 </button>

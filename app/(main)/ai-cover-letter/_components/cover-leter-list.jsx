@@ -65,7 +65,7 @@ export default function CoverLetterList({ coverLetters }) {
                                     <LetterText className="w-8 h-8 text-indigo-600" />
                                 </div>
                                 <div className="space-y-0.5">
-                                    <h3 className="text-xl font-black text-slate-900 capitalize leading-tight group-hover:text-primary-500 transition-colors">
+                                    <h3 className="text-xl font-black text-slate-900 capitalize leading-tight group-hover:text-primary transition-colors">
                                         {letter.jobTitle}
                                     </h3>
                                     <p className="text-sm font-bold text-indigo-500">
