@@ -3,6 +3,7 @@ import OnBoardingForm from './_components/OnBoardingForm'
 import { industries } from '@/data/industries'
 import { userOnboardingStatus } from '@/actions/user'
 import { redirect } from 'next/navigation'
+export const dynamic = "force-dynamic";
 
 const onBoardingPage = async() => {
   const { isOnboarded } = await userOnboardingStatus();

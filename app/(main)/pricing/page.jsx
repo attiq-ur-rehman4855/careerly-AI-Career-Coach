@@ -3,6 +3,8 @@ import { checkAuth } from "@/services/authCheck";
 import { redirect } from "next/navigation";
 import PricingCards from "./_components/PricingCards";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Pricing - Careerly",
   description: "Choose the right plan for your career growth",

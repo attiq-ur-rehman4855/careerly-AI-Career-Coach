@@ -9,6 +9,8 @@ import Link from "next/link";
 import UsageAnalytics from "./_components/UsageAnalytics";
 import { format } from "date-fns";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Billing & Usage - Careerly",
   description: "Manage your subscription, payments, and token usage.",
