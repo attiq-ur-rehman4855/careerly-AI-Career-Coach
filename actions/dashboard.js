@@ -49,10 +49,12 @@ export async function generateAIInsightWithTokens(data, userId) {
   return insights;
 }
 
-// Inngest function: Runs when triggered
+// Inngest function: Runs when triggered (UPDATED SYNTAX ✅)
 export const generateAIInsightFn = inngest.createFunction(
-  { id: "generate-ai-insight" },
-  { event: "ai/insight.requested" }, // event name
+  { 
+    id: "generate-ai-insight",
+    triggers: [{ event: "ai/insight.requested" }] // Triggers are now correctly nested inside the 1st argument
+  },
   async ({ event, step }) => {
     const industry = event.data.industry;
     const insights = await generateAIInsight(industry);
@@ -85,4 +87,3 @@ export async function getIndustryInsight() {
 
   return user.industryInsight;
 }
-
