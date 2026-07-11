@@ -2,6 +2,8 @@ import { getPlatformStats } from "@/actions/admin";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import AnalyticsCharts from "./_components/AnalyticsCharts";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Platform Analytics - Careerly Admin",
 };
