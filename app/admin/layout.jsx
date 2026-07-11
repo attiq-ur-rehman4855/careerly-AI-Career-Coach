@@ -2,6 +2,7 @@ import { checkAdmin } from "@/actions/admin";
 import { redirect } from "next/navigation";
 import AdminSidebar from "./_components/AdminSidebar";
 import AdminHeader from "./_components/AdminHeader";
+export const dynamic = "force-dynamic";
 
 export default async function AdminLayout({ children }) {
   try {

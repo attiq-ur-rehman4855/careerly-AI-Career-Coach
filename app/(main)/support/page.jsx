@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { format } from "date-fns";
 import { MessageSquare, Clock, CheckCircle2, AlertCircle } from "lucide-react";
 import { checkAuth } from "@/services/authCheck";
+
 export const dynamic = "force-dynamic";
 
 export const metadata = {

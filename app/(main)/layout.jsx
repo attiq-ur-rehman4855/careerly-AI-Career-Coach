@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { checkUser } from '@/lib/checkUser';
 import { redirect } from 'next/navigation';
 import { headers } from 'next/headers';
+export const dynamic = "force-dynamic";
 
 const MainLayoutPage = async ({ children }) => {
   const user = await checkUser();
