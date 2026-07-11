@@ -79,7 +79,7 @@ const QuizResult = ({ result, onStartNew, hideStartNew = false }) => {
         <div className='space-y-6'>
             <div className="flex items-center justify-between px-2">
                 <h2 className='text-2xl font-bold text-slate-900 flex items-center gap-2'>
-                    <FileText className="w-6 h-6 text-primary" />
+                    <FileText className="w-6 h-6 text-primary-500" />
                     Detailed Analysis
                 </h2>
                 <Badge variant="outline" className="px-4 py-1 rounded-full border-slate-200 text-slate-600 font-semibold bg-white">

@@ -219,7 +219,7 @@ const Quiz = () => {
                             >
                                 {["fresher", "1-3", "senior"].map((level) => (
                                     <div key={level} className="flex items-center space-x-2 px-3 py-1 bg-white rounded-lg border border-slate-100 shadow-sm hover:border-primary/30 transition-all cursor-pointer">
-                                        <RadioGroupItem value={level} id={level} className="text-primary" />
+                                        <RadioGroupItem value={level} id={level} className="text-primary-500" />
                                         <Label htmlFor={level} className={'capitalize font-semibold text-slate-600 cursor-pointer'}>
                                             {level === "1-3" ? "1-3 Years" : level}
                                         </Label>
@@ -239,8 +239,8 @@ const Quiz = () => {
                         >
                             {["technical", "hr", "behavioral", "mixed"].map(type => (
                                 <div key={type} className="flex items-center space-x-2 px-4 py-2 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-primary/40 hover:shadow-md transition-all cursor-pointer group">
-                                    <RadioGroupItem value={type} id={type} className="text-primary" />
-                                    <Label htmlFor={type} className={'capitalize font-bold text-slate-700 cursor-pointer group-hover:text-primary transition-colors'}>{type}</Label>
+                                    <RadioGroupItem value={type} id={type} className="text-primary-500" />
+                                    <Label htmlFor={type} className={'capitalize font-bold text-slate-700 cursor-pointer group-hover:text-primary-500 transition-colors'}>{type}</Label>
                                 </div>
                             ))}
                         </RadioGroup>
@@ -338,7 +338,7 @@ const Quiz = () => {
                                             {isSelected && <div className="w-2 h-2 rounded-full bg-white animate-in zoom-in duration-300" />}
                                         </div>
                                         <span className={`text-[15px] font-bold transition-colors ${
-                                            isSelected ? "text-primary" : "text-slate-600 group-hover:text-slate-900"
+                                            isSelected ? "text-primary-500" : "text-slate-600 group-hover:text-slate-900"
                                         }`}>
                                             {option}
                                         </span>

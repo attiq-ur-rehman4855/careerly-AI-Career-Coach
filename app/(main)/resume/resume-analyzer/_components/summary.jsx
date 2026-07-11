@@ -29,7 +29,7 @@ const Summary = ({feedback}) => {
                 <div className='flex flex-col md:flex-row justify-start items-center gap-5 p-2 pt-0 md:pt-0 md:p-4 mb-6'>
                     <ScoreGauge score={feedback.overallScore} />
                     <div className='flex flex-col gap-2'>
-                        <h2 className='text-xl md:text-2xl font-bold text-primary'>Your Resume Score</h2>
+                        <h2 className='text-xl md:text-2xl font-bold text-primary-500'>Your Resume Score</h2>
                         <p className='text-sm text-muted-foreground'>This score is calculated based on the variables listed below</p>
                     </div>
                 </div>

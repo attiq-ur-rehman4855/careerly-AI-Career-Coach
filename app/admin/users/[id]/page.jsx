@@ -81,7 +81,7 @@ export default async function UserAuditPage({ params }) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-1">
           <div className="bg-white p-8 rounded-4xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
             <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Available Credits</p>
-            <h4 className="text-4xl font-black text-slate-900 tracking-tighter group-hover:text-primary transition-colors">
+            <h4 className="text-4xl font-black text-slate-900 tracking-tighter group-hover:text-primary-500 transition-colors">
               {subscription?.tokensRemaining.toLocaleString() || 0}
             </h4>
           </div>
@@ -112,7 +112,7 @@ export default async function UserAuditPage({ params }) {
               <CardHeader className="p-8 md:p-10 border-b border-slate-50 flex flex-row items-center justify-between">
                 <div>
                   <CardTitle className="text-xl font-black text-slate-900 flex items-center gap-3">
-                    <Zap className="w-5 h-5 text-primary" />
+                    <Zap className="w-5 h-5 text-primary-500" />
                     AI Execution Audit
                   </CardTitle>
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Real-time resource consumption logs</p>

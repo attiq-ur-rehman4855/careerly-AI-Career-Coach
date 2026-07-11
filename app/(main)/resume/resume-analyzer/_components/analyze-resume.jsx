@@ -112,7 +112,7 @@ const AnalyzeResume = () => {
               <div className="relative">
                 <div className="w-24 h-24 border-4 border-slate-100 border-t-primary rounded-full animate-spin" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <FileScan className="w-10 h-10 text-primary/40" />
+                  <FileScan className="w-10 h-10 text-primary-500/40" />
                 </div>
               </div>
               <div className="text-center">
@@ -180,7 +180,7 @@ const AnalyzeResume = () => {
                       <div className='bg-white p-4 rounded-2xl shadow-xl mb-4 group-hover:scale-110 transition-transform'>
                         <img src="/pdf.png" className='w-12 h-12' alt="pdf" />
                       </div>
-                      <p className='font-black text-primary text-lg'>{file.name}</p>
+                      <p className='font-black text-primary-500 text-lg'>{file.name}</p>
                       <p className='text-slate-400 text-xs font-bold mt-1 uppercase tracking-widest'>PDF Ready for analysis</p>
 
                       <button
@@ -195,14 +195,14 @@ const AnalyzeResume = () => {
                     <div className="relative border-2 border-dashed border-slate-200 rounded-[2rem] p-12 text-center hover:border-primary/50 hover:bg-slate-50 transition-all cursor-pointer group">
                       <label className="cursor-pointer">
                         <div className="flex flex-col items-center gap-4">
-                          <div className="bg-slate-100 p-6 rounded-full group-hover:bg-primary/10 group-hover:text-primary transition-all">
+                          <div className="bg-slate-100 p-6 rounded-full group-hover:bg-primary/10 group-hover:text-primary-500 transition-all">
                             <FileScan className="w-10 h-10" />
                           </div>
                           <div className="space-y-1">
                             <p className="text-lg font-black text-slate-800">Drop your resume here</p>
                             <p className="text-sm text-slate-500 font-medium">Supported format: PDF only (Max 5MB)</p>
                           </div>
-                          <div className="mt-2 text-primary font-bold text-sm bg-primary/10 px-4 py-2 rounded-full">
+                          <div className="mt-2 text-primary-500 font-bold text-sm bg-primary/10 px-4 py-2 rounded-full">
                             Select File from Device
                           </div>
                         </div>

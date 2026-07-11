@@ -655,7 +655,7 @@ const PortfolioForm = ({ initialData = {}, defaultUser = {} }) => {
                     type="button"
                     variant="ghost"
                     size="sm"
-                    className="bg-primary/5 text-primary hover:bg-primary/10 rounded-full px-4 font-bold transition-all"
+                    className="bg-primary/5 text-primary-500 hover:bg-primary/10 rounded-full px-4 font-bold transition-all"
                     onClick={() => handleAIImprove("aboutMe", formData.aboutMe, (val) => setFormData(prev => ({ ...prev, aboutMe: val })), "aboutMe")}
                     disabled={isPolishing.aboutMe || !formData.aboutMe}
                   >
@@ -884,7 +884,7 @@ const PortfolioForm = ({ initialData = {}, defaultUser = {} }) => {
                           type="button"
                           variant="ghost"
                           size="sm"
-                          className="bg-primary/5 text-primary hover:bg-primary/10 rounded-full px-4 font-bold text-xs"
+                          className="bg-primary/5 text-primary-500 hover:bg-primary/10 rounded-full px-4 font-bold text-xs"
                           onClick={() => handleAIImprove("experience description", currentExp.description, (val) => setCurrentExp(prev => ({ ...prev, description: val })), "currentExpDesc")}
                           disabled={isPolishing.currentExpDesc || !currentExp.description}
                         >
@@ -1160,7 +1160,7 @@ const PortfolioForm = ({ initialData = {}, defaultUser = {} }) => {
                           type="button"
                           variant="ghost"
                           size="sm"
-                          className="bg-primary/5 text-primary hover:bg-primary/10 rounded-full px-4 font-bold text-xs"
+                          className="bg-primary/5 text-primary-500 hover:bg-primary/10 rounded-full px-4 font-bold text-xs"
                           onClick={() => handleAIImprove("project description", currentProj.description, (val) => setCurrentProj(prev => ({ ...prev, description: val })), "currentProjDesc")}
                           disabled={isPolishing.currentProjDesc || !currentProj.description}
                         >
@@ -1427,7 +1427,7 @@ const PortfolioForm = ({ initialData = {}, defaultUser = {} }) => {
                           type="button"
                           variant="ghost"
                           size="sm"
-                          className="bg-primary/5 text-primary hover:bg-primary/10 rounded-full px-4 font-bold text-xs"
+                          className="bg-primary/5 text-primary-500 hover:bg-primary/10 rounded-full px-4 font-bold text-xs"
                           onClick={() => handleAIImprove("custom section content", currentCustom.content, (val) => setCurrentCustom(prev => ({ ...prev, content: val })), "currentCustomContent")}
                           disabled={isPolishing.currentCustomContent || !currentCustom.content}
                         >

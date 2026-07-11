@@ -103,7 +103,7 @@ const ChatSidebar = ({ isSidebarOpen, chatId, setChatId, setMessages, setIsHisto
              onClick={() => loadChat(chat.id)}
           >
             <div className="flex-1 text-sm font-bold truncate flex items-center gap-3">
-              <MessageSquare size={16} className={`${chatId === chat.id ? 'text-white' : 'text-primary'}`} />
+              <MessageSquare size={16} className={`${chatId === chat.id ? 'text-white' : 'text-primary-500'}`} />
               <span className="truncate">{chat.title || "New Chat"}</span>
             </div>
 
